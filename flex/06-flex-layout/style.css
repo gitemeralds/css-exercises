@@ -28,9 +28,27 @@ input {
   margin-bottom: 16px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
 .footer {
   display: flex;
   background-color: lightgray;
   margin-top: auto;
   justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+  display: flex;
 }
