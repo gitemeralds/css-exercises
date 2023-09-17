@@ -28,6 +28,10 @@ input {
   margin-bottom: 16px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .content {
   display: flex;
   flex-direction: column;
