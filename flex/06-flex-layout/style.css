@@ -30,6 +30,15 @@ input {
 
 ul {
   list-style-type: none;
+  padding: 0px 12px;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(129, 129, 129);
+  font-weight: bold;
 }
 
 .content {
